@@ -8,10 +8,25 @@
   --fundo-card
 */
 
-body{
-  background-color: lightgray;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-h1{
-  color: darkblue;
+:root{
+  --fundo-principal: #f5f5f5;
+  --texto: #222222;
+  --texto-inverso: #ffffff;
+  --destaque: #0077ff;
+  --destaque-inverso: #66bbff;
+  --fundo-card: #ffffff;
 }
+
+body{
+  background-color: var(--fundo-principal);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5em;
+  color: var(--texto);
+}
+
